@@ -1,2 +1,2 @@
 # Primeiros-passos-Java
-Primeiros passos em Java
+Espaço para registrar meu estudo sobre Java.
