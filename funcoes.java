@@ -6,7 +6,7 @@ O nome não é relevante, o que importa é o tipo*/
 public class Main {
 
 	public static void main(String[] args) {
-	    soma(10, 15);
+	    soma(10, 15); //argumentos
 	    soma(15,20);
 	    soma(89, 56);
 }
