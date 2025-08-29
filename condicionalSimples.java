@@ -1,4 +1,4 @@
-// CONDICIONAIS PARTE 1
+// Condicional simples
 
 import java.util.Scanner;
 public class Main
@@ -6,7 +6,7 @@ public class Main
 	public static void main(String[] args) {
 	Scanner keyboard = new Scanner(System.in);
 	System.out.println("Calculadora de notas");
-	System.out.prin("Insira a primeira nota: ");
+	System.out.print("Insira a primeira nota: ");
 	float n1 = keyboard.nextFloat();
 	System.out.print("Insira a segunda nota: ");
 	float n2 = keyboard.nextFloat();
