@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Main {
@@ -25,16 +26,13 @@ public class Main {
     double unidadeCalculoInverso2 = dezenaInverso*10; // retorna 30
     double unidadeInverso = numInversoCalculo - unidadeCalculoInverso1 - unidadeCalculoInverso2; // retorna 7
     //CALCULANDO (7 * 1) + (6 * 2) + (7 * 3) = 40
+    double calculoFinal = (centenaInverso * 1) + (dezenaInverso * 2) + (unidadeInverso * 3); // retorna 40
+    
+//CALCULANDO DIGITO VERIFICADOR (ULTIMO NUMERO)    
+    double digitoVerCalculo = (calculoFinal*0.10);
+    int digito = (int) calculoFinal - ((int)digitoVerCalculo*10); 
    
-   
-   
-    System.out.println(centenaNum);
-    System.out.println(dezena);
-    System.out.println(unidade);
-    System.out.println(numInversoCalculo);
-    System.out.println(centenaInverso);
-    System.out.println(dezenaInverso);
-    System.out.println(unidadeInverso);
+    System.out.println(digito);
     keyboard.close();
     }
 }
