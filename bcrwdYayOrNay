@@ -1,0 +1,28 @@
+/*Camila tem um canal no Youtube e está pensando em ideias diferentes de vídeos que ela pode gravar.
+Depois de fazer algumas pesquisas, ela decidiu fazer um desafio com seu namorado.
+O desafio é o seguinte: mostrar para ele algo que ela comprou, e ele tentar adivinhar o preço.
+Porém, ela decidiu mudar um pouco as coisas.
+O que o namorado de Camila não sabe é que ele não precisa acertar os valores exatos dos produtos, mas sim a soma de todos eles.
+Para realizar o desafio, Camila separou três objetos cuja soma dos valores é igual a $100.*/
+
+import java.util.Scanner;
+public class Main
+
+{
+	public static void main(String[] args) {
+	Scanner keyboard = new Scanner(System.in);
+	double prod1 = keyboard.nextDouble();
+	double prod2 = keyboard.nextDouble();
+	double prod3 = keyboard.nextDouble();
+	
+	if ((prod1 + prod2 + prod3)== 100.00){
+	    System.out.println("100.00");
+	} else {
+	    System.out.printf("%.2f\n" , prod1);
+	    System.out.printf("%.2f\n" , prod2);
+	    System.out.printf("%.2f\n" , prod3);
+	}
+	
+	keyboard.close();
+	}
+}
